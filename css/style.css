@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.custom-range {
+    appearance: none;
+    height: 5px;
+    background: #68D391;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.custom-range::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+main img:hover{
+cursor: pointer;
+}

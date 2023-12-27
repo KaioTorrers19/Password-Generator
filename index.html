@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senhas</title>
+    <link rel="shortcut icon" href="imgs/favico.png" type="image/x-icon">
+</head>
+<body class="bg-gradient-to-b from-gray-700 via-gray-900 to-black bg-no-repeat h-screen flex justify-center ">
+    <main class="mt-28">
+            <h1 class="text-gray-500 font-semibold text-3xl text-center">Password Generator</h1>
+            <div class="bg-gray-600 p-3 mt-5 w-96 rounded shadow-2xl flex justify-between items-center">
+                <p class="text-gray-300" id="Password">P4$5WOrD ! </p>
+                <img src="imgs/copy.png" id="copy">
+            </div>
+            <div class="bg-gray-600 mt-12 w-96 rounded p-3">
+                <div class="flex justify-between items-center mb-5">
+                <h1 class="text-white">Character Length</h1>
+                <p class="text-green-500 font-bold text-xl" id="charCount">0</p>
+                </div>
+                <input type="range" name="charge"  id="charRange" min="5"  max="15" class="w-full custom-range mb-9">
+                <div class="flex justify-around text-xs items-center">
+                <label class="text-white">
+                <input type="checkbox" id="uppercase">
+                Uppercase
+            </label>
+            <label class="text-white">
+                <input type="checkbox" id="lowercase">
+                Lowercase
+            </label>
+
+            <label class="text-white">
+                <input type="checkbox" id="specialCharacters">
+                Special characters
+            </label>
+            
+            <label class="text-white">
+                <input type="checkbox" id="numbers">
+                numbers
+            </label>
+        </div>
+            <div class="flex justify-center mt-5">
+                <button class="border-green-400 border rounded p-3 text-white w-60 mt-7" id="Submit">Submit</button>
+        </div>
+            </div>
+    </main>
+</body>
+<script src="js/main.js"></script>
+</html>
+
