@@ -17,7 +17,7 @@ Usando para  ensino de tecnologias WEB.
 <br>
 
 <p align="center">
-  <img alt="Gerador De Senahs" src="imgs/capa.jpeg" width="100%">
+  <img alt="Gerador De Senahs" src="imgs/Capa.jpeg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
