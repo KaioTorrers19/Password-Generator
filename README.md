@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Gerador de senhas aleatório
+Gerador de senhas aleatório [Veja aqui](https://kaiotorrers19.github.io/Password-Generator/)
 
 Veja como instalar o Tailwind CSS passo a passo em sua máquina. [Documentção do Tailwind CSS ](https://tailwindcss.com/docs/installation)
 
